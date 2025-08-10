@@ -1,1 +1,0 @@
-# alx-listing-app-detail
