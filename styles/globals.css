@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+@import "tailwindcss";
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    right: 20px !important;
+    color: white !important;
+    width: auto !important;
+    left: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    background: rgba(0, 0, 0, 0.799) !important;
+    border-radius: 40% !important;
+}
